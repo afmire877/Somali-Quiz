@@ -2,38 +2,38 @@
 <html>
 <head>
 	<title>Somali Quiz</title>
-	<style type="text/css" src="styles.css"></style>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+	<div class="container">
+		<h1>Somali Quiz</h1>
 
-	<h1>Somali Quiz</h1>
+		<h2>What do you know about somalia</h2>
 
-	<h2>What do you know about somalia</h2>
+		<button id='begin'>Start the Quiz</button>
 
-	<button id='begin'>Start the Quiz</button>
+		<!-- Quiz Display -->
+		<div id="quiz" style="display:none;">
+			<h1 id="question" ></h1>
 
-	<!-- Quiz Display -->
-	<div id="quiz" style="display:none;">
-		<h1 id="question" ></h1>
+			<form id="quizbtns" >
+				<label for="option1">OPTION1</label>
+				<input name="answers" type="radio" id="option1" value="option1">
 
-		<form id="quizbtns" >
-			<label for="option1">OPTION1</label>
-			<input name="answers" type="radio" id="option1" value="option1">
+				<label for="option2">OPTION2</label>
+				<input name="answers" type="radio" id="option2" value="option2">
 
-			<label for="option2">OPTION2</label>
-			<input name="answers" type="radio" id="option2" value="option2">
-
-			<label for="option3">OPTION3</label>
-			<input name="answers" type="radio" id="option3" value="option3">
-		</form>
-		<button id="next">Next</button>
+				<label for="option3">OPTION3</label>
+				<input name="answers" type="radio" id="option3" value="option3">
+			</form>
+			<button id="next">Next</button>
+		</div>
+		<!-- Results Panel -->
+		<div id = 'resultDisplay'>
+			<h1 id="result">Result</h1>
+			<h2 id="score"></h2>
+		</div>
 	</div>
-	<!-- Results Panel -->
-	<div id = 'resultDisplay'>
-		<h1 id="result">Result</h1>
-		<h2 id="score"></h2>
-	</div>
-	
 
 	<script type="text/javascript" src="app.js"></script>
 </body>

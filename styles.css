@@ -3,10 +3,30 @@
 	padding:0;
 }
 
-div #quiz {
-	display: none;
+body {
+	background-image:url(assets/img/somali-flag.png);
+	background-size: cover ;
+	background-position: center; 
+	background-repeat: no-repeat;
+	height: 100vh;
 }
-
-.show {
+h1,
+h2,
+form
+ {
+	text-align: center;
+	padding: 10px 10px;
+}
+button {
 	display: block;
+	padding: 10px 20px;
+	border-radius: 20px;
+	border: 1px solid black;
+	margin:0 auto;
+}
+button:focus { outline: none; }
+
+.container {
+	margin: 0 auto;
+	height: 360px;
 }
