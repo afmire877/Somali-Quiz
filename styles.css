@@ -1,0 +1,12 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+div #quiz {
+	display: none;
+}
+
+.show {
+	display: block;
+}
