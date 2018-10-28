@@ -14,7 +14,7 @@ h1,
 h2,
 form
  {
-	text-align: center;
+	text-align: center; 
 	padding: 10px 10px;
 }
 button {
@@ -27,6 +27,7 @@ button {
 button:focus { outline: none; }
 
 .container {
-	margin: 0 auto;
-	height: 360px;
+	margin-top: calc(50vh - 109px);
+	margin-bottom: calc(50vh - 109px) ;
+	/*height: 360px;*/
 }
